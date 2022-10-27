@@ -25,6 +25,5 @@ public class SaleDTO {
     @NotNull
     private Double amount;
 
-    @NotNull
     private LocalDate dateSale;
 }

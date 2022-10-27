@@ -32,6 +32,5 @@ public class SaleModel implements Serializable {
     @Column(nullable = false)
     private Double amount;
 
-    @Column(nullable = false)
     private LocalDate dateSale;
 }
